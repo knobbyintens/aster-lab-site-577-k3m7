@@ -1,0 +1,30 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+env:
+  # Deployment target used by the path verification step.
+  SITE_ORIGIN: ""
+  SITE_BASEURL: ""
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Verify generated paths
+        run: python scripts/verify_site_paths.py --origin "$SITE_ORIGIN" --baseurl "$SITE_BASEURL"

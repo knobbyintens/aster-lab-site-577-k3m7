@@ -1,0 +1,35 @@
+# Site settings
+title: "Academic Pages"
+description: "A starter site built from an academic theme."
+url: ""
+baseurl: ""
+repository: ""
+logo: "/assets/images/logo.png"
+
+# Author / site owner block
+author:
+  name: "Template Author"
+  avatar: "/assets/images/profile.png"
+  bio: "Template biography placeholder."
+  email: "template@example.com"
+  github: "template-user"
+  location: "Template location"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+future: true
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+include:
+  - _pages
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
