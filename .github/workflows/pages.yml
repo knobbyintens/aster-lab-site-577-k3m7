@@ -12,8 +12,8 @@ permissions:
 
 env:
   # Deployment target used by the path verification step.
-  SITE_ORIGIN: ""
-  SITE_BASEURL: ""
+  SITE_ORIGIN: "https://knobbyintens.github.io"
+  SITE_BASEURL: "/aster-lab-site-577-k3m7"
 
 jobs:
   build:

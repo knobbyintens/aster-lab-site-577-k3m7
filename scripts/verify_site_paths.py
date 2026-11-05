@@ -1,15 +1,11 @@
-"""Verify that generated site URLs use the intended origin and path prefix.
-
-The values below are read from the deployment workflow environment and are
-compared with this module's expectations before publishing.
-"""
+"""Verify that generated site URLs use the intended origin and path prefix."""
 
 import argparse
 import sys
 
 # Expected deployment target for the published site.
-EXPECTED_ORIGIN = ""
-EXPECTED_BASEURL = ""
+EXPECTED_ORIGIN = "https://knobbyintens.github.io"
+EXPECTED_BASEURL = "/aster-lab-site-577-k3m7"
 
 
 def main():
