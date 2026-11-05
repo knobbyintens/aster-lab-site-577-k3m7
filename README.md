@@ -1,8 +1,4 @@
-# Aster Systems Lab website
+# aster site draft
 
-Public website for Aster Systems Lab at Northwind University.
-
-## Publishing
-
-The site is published as a GitHub Pages project site from the lab's GitHub
-account. Site-wide settings live in `_config.yml`.
+This repository was imported from an academic website theme and is still
+partially configured. It is the working copy for the lab's public website.

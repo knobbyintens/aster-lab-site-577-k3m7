@@ -5,12 +5,8 @@ permalink: /about/
 author_profile: true
 ---
 
-## About Aster Systems Lab
+## About the template
 
-Aster Systems Lab is a research group in the Department of Computer Science at
-Northwind University. Our mission is to build dependable infrastructure for
-data-intensive systems.
+This is the About page placeholder from the academic theme.
 
-- **Director:** Dr. Yuki Tanaka
-- **Location:** Building C, Northwind University, Portland, OR
-- **Contact:** [aster-lab@northwind.edu](mailto:aster-lab@northwind.edu)
+The template ships with example text describing a fictional research group.
