@@ -1,19 +1,19 @@
 # Site settings
-title: "Academic Pages"
-description: "A starter site built from an academic theme."
-url: ""
-baseurl: ""
-repository: ""
+title: "Aster Systems Lab"
+description: "Aster Systems Lab at Northwind University: dependable infrastructure for data-intensive systems."
+url: "https://knobbyintens.github.io"
+baseurl: "/aster-lab-site-577-k3m7"
+repository: "knobbyintens/aster-lab-site-577-k3m7"
 logo: "/assets/images/logo.png"
 
 # Author / site owner block
 author:
-  name: "Template Author"
+  name: "Aster Systems Lab"
   avatar: "/assets/images/profile.png"
-  bio: "Template biography placeholder."
-  email: "template@example.com"
-  github: "template-user"
-  location: "Template location"
+  bio: "Research group in the Department of Computer Science at Northwind University."
+  email: "aster-lab@northwind.edu"
+  github: "knobbyintens"
+  location: "Building C, Northwind University, Portland, OR"
 
 # Build settings
 markdown: kramdown

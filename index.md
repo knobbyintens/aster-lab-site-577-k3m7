@@ -3,9 +3,12 @@ layout: single
 author_profile: true
 ---
 
-# Academic Pages
+# Aster Systems Lab
 
-Welcome to the template homepage.
+Aster Systems Lab is a research group in the Department of Computer Science at
+Northwind University. We build dependable infrastructure for data-intensive
+systems, with work spanning storage engines, cluster scheduling, and verified
+distributed protocols.
 
-This page was imported from an open-source academic theme and still contains
-placeholder text. Replace it with the organization's introduction.
+See [About](/about/), [Team](/team/), [Projects](/projects/), and
+[Publications](/publications/) for more information.

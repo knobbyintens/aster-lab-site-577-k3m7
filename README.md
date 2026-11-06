@@ -1,4 +1,8 @@
-# aster site draft
+# Aster Systems Lab website
 
-This repository was imported from an academic website theme and is still
-partially configured. It is the working copy for the lab's public website.
+Public website for Aster Systems Lab at Northwind University.
+
+## Publishing
+
+The site is published as a GitHub Pages project site from the lab's GitHub
+account. Site-wide settings live in `_config.yml`.
